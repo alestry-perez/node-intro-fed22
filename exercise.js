@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 
 app.get('/posts', (req, res) => {
   // Endpoint 1
+  res.send();
 });
 
 app.post('/posts', (req, res) => {
